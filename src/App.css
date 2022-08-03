@@ -8,3 +8,13 @@
 .nav__logo {
   max-width: 100px;
 }
+
+.hero__container {
+  max-width: 65%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.hero__img {
+  width: 100%;
+}

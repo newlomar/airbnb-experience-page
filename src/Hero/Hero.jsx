@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section class='hero__container'>
       <div>
-        <img src={heroImg} alt='' />
+        <img className='hero__img' src={heroImg} alt='' />
       </div>
     </section>
   );
