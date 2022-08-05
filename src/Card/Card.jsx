@@ -1,9 +1,17 @@
-export default function Card({ status, rate, reviewCount, location, summary }) {
+export default function Card({
+  img,
+  status,
+  rate,
+  reviewCount,
+  location,
+  summary,
+  price,
+}) {
   return (
     <a href='#'>
       <section className='card'>
         <div className='card__image'>
-          <img src='' alt='' />
+          <img src={img} alt='' />
           <span className='card__status'>{status}</span>
         </div>
         <article>

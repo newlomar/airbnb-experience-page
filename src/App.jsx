@@ -1,5 +1,6 @@
 import NavBar from './NavBar/NavBar';
 import Hero from './Hero/Hero';
+import Main from './Main/Main';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className='app'>
       <NavBar />
       <Hero />
+      <Main />
     </div>
   );
 }
