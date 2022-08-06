@@ -91,3 +91,19 @@
   list-style-type: none;
   padding: 0px;
 }
+
+.card__starImg {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 2px;
+}
+
+.card__rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card__rate__gray {
+  color: #918e9b;
+}

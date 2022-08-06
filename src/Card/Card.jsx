@@ -1,3 +1,5 @@
+import star from '../assets/star.png';
+
 export default function Card({
   imageName,
   status,
@@ -16,8 +18,11 @@ export default function Card({
         <article>
           <ul className='card__information'>
             <li className='card__rate'>
-              <img src='' alt='' />
-              {Number(rate).toFixed(1)}({reviewCount}) -{location}
+              <img className='card__starImg' src={star} alt='' />
+              {Number(rate).toFixed(1)}
+              <span className='card__rate__gray'>
+                ({reviewCount}) &#x2022; {location}
+              </span>
             </li>
             <li className='card__summary'>{summary}</li>
             <li className='card__price'>
