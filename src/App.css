@@ -35,7 +35,7 @@
 
 .h1 {
   font-size: 36px;
-  color: #000000;
+  color: #000;
 }
 
 .card {
@@ -44,9 +44,14 @@
 
 .card__status {
   position: absolute;
-  top: 1px;
-  background: FFFFFF;
-  padding: 10px;
+  top: 5px;
+  left: 5px;
+  color: #222222;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .card__image {
