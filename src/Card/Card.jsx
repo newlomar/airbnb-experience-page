@@ -11,10 +11,10 @@ export default function Card({
     <a href='#'>
       <section className='card'>
         <div className={'card__image card__image__' + imageName}>
-          <span className='card__status'>{status}</span>
+          <div className='card__status'>{status}</div>
         </div>
         <article>
-          <ul>
+          <ul className='card__information'>
             <li className='card__rate'>
               <img src='' alt='' />
               {rate}

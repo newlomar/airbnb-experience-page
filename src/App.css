@@ -28,16 +28,25 @@
 }
 
 .main__cards {
+  display: flex;
+  gap: 18px;
   margin-top: 60px;
 }
 
 .h1 {
   font-size: 36px;
+  color: #000000;
+}
+
+.card {
+  position: relative;
 }
 
 .card__status {
   position: absolute;
-  top: 20px;
+  top: 1px;
+  background: FFFFFF;
+  padding: 10px;
 }
 
 .card__image {
@@ -56,4 +65,9 @@
 .card__image__bike {
   background: url(./assets/bike.png) no-repeat center center / cover;
   border-radius: 9px;
+}
+
+.card__information {
+  list-style-type: none;
+  padding: 0px;
 }
