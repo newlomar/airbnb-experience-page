@@ -34,3 +34,8 @@
 .h1 {
   font-size: 36px;
 }
+
+.card__status {
+  position: absolute;
+  top: 20px;
+}
