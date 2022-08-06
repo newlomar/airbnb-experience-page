@@ -26,7 +26,7 @@ export default function Card({
             </li>
             <li className='card__summary'>{summary}</li>
             <li className='card__price'>
-              <b>From {price}</b> / person
+              <b>From ${price}</b> / person
             </li>
           </ul>
         </article>

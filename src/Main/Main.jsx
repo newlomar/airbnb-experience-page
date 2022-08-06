@@ -4,8 +4,8 @@ export default function Main() {
   return (
     <main className='main'>
       <section className='main__text'>
-        <h1 className='h1'>Online Experiences</h1>
-        <p>
+        <h1 className='main__h1'>Online Experiences</h1>
+        <p className='main__paragraph'>
           Join unique interactive activities led by one-of-a-kind hosts—all
           without leaving home.
         </p>
@@ -26,6 +26,8 @@ export default function Main() {
           rate={5.0}
           reviewCount={30}
           location={'USA'}
+          summary='Learn wedding photography'
+          price='125'
         />
         <Card
           imageName={'bike'}
@@ -33,6 +35,8 @@ export default function Main() {
           rate={4.8}
           reviewCount={2}
           location={'USA'}
+          summary='Group Mountain Biking'
+          price='50'
         />
       </section>
     </main>

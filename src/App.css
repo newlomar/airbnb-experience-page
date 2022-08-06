@@ -20,23 +20,26 @@
 }
 
 .main {
-  margin-left: 35px;
-}
-
-.main__text {
-  max-width: 400px;
+  margin-left: 30px;
 }
 
 .main__cards {
   display: flex;
-  gap: 18px;
+  gap: 15px;
   margin-top: 60px;
   overflow-x: hidden;
 }
 
-.h1 {
-  font-size: 36px;
+.main__h1 {
+  font-size: 37px;
   color: #000;
+  margin-bottom: 10px;
+}
+
+.main__paragraph {
+  max-width: 330px;
+  line-height: 1.1;
+  margin-top: 0px;
 }
 
 .link_card {
@@ -90,7 +93,7 @@
   max-width: 176px;
   list-style-type: none;
   padding: 0px;
-  font-size: 12px;
+  font-size: 11.5px;
 }
 
 .card__starImg {
