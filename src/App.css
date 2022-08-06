@@ -38,6 +38,14 @@
   color: #000;
 }
 
+.link_card {
+  color: #222222;
+}
+
+.link_card:visited {
+  color: #222222;
+}
+
 .card {
   position: relative;
 }
@@ -46,12 +54,16 @@
   position: absolute;
   top: 5px;
   left: 5px;
+  width: 61px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #222222;
   font-size: 11.5px;
   text-transform: uppercase;
   background: #fff;
-  padding: 5px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .card__image {

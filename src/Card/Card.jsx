@@ -8,7 +8,7 @@ export default function Card({
   price,
 }) {
   return (
-    <a href='#'>
+    <a href='#' class='link_card'>
       <section className='card'>
         <div className={'card__image card__image__' + imageName}>
           <div className='card__status'>{status}</div>
