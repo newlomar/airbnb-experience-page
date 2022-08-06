@@ -27,6 +27,10 @@
   max-width: 400px;
 }
 
+.main__cards {
+  margin-top: 60px;
+}
+
 .h1 {
   font-size: 36px;
 }

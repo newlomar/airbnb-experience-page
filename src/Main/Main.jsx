@@ -10,17 +10,19 @@ export default function Main() {
           without leaving home.
         </p>
       </section>
-      <Card
-        img={swimmer}
-        status={'sold out'}
-        rate={5.0}
-        reviewCount={6}
-        location={'USA'}
-        summary='Life lessons with Katie Zaferes'
-        price='136'
-      />
-      <Card />
-      <Card />
+      <section className='main__cards'>
+        <Card
+          img={swimmer}
+          status={'sold out'}
+          rate={5.0}
+          reviewCount={6}
+          location={'USA'}
+          summary='Life lessons with Katie Zaferes'
+          price='136'
+        />
+        <Card />
+        <Card />
+      </section>
     </main>
   );
 }
