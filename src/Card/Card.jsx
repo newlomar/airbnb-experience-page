@@ -1,5 +1,5 @@
 export default function Card({
-  imgName,
+  imageName,
   status,
   rate,
   reviewCount,

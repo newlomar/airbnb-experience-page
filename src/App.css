@@ -39,3 +39,12 @@
   position: absolute;
   top: 20px;
 }
+
+.card__image {
+  width: 176px;
+  height: 235px;
+}
+
+.card__image__swimmer {
+  background: url(./assets/swimmer.png);
+}

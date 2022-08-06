@@ -12,7 +12,7 @@ export default function Main() {
       </section>
       <section className='main__cards'>
         <Card
-          img={swimmer}
+          image={'swimmer'}
           status={'sold out'}
           rate={5.0}
           reviewCount={6}
