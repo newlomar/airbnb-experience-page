@@ -13,7 +13,7 @@ export default function Card({
     <a href='#' className='link_card'>
       <section className='card'>
         <div className={'card__image card__image__' + imageName}>
-          <div className='card__status'>{status}</div>
+          {status ? <div className='card__status'>{status}</div> : ''}
         </div>
         <article>
           <ul className='card__information'>
