@@ -19,6 +19,14 @@
   width: 100%;
 }
 
+.main {
+  margin-left: 35px;
+}
+
+.main__text {
+  max-width: 400px;
+}
+
 .h1 {
   font-size: 36px;
 }

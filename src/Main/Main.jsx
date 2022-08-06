@@ -2,7 +2,7 @@ import Card from '../Card/Card';
 import swimmer from '../assets/swimmer.png';
 export default function Main() {
   return (
-    <main>
+    <main className='main'>
       <section className='main__text'>
         <h1 className='h1'>Online Experiences</h1>
         <p>
