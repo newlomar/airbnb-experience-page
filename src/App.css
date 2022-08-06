@@ -48,3 +48,11 @@
 .card__image__swimmer {
   background: url(./assets/swimmer.png) no-repeat center center / cover;
 }
+
+.card__image__bride {
+  background: url(./assets/bride.png) no-repeat center center / cover;
+}
+
+.card__image__bike {
+  background: url(./assets/bike.png) no-repeat center center / cover;
+}
