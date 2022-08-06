@@ -55,4 +55,5 @@
 
 .card__image__bike {
   background: url(./assets/bike.png) no-repeat center center / cover;
+  border-radius: 9px;
 }
