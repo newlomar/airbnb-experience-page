@@ -20,8 +20,20 @@ export default function Main() {
           summary='Life lessons with Katie Zaferes'
           price='136'
         />
-        <Card imageName={'bride'} status={'online'} rate={5.0} />
-        <Card imageName={'bike'} status={''} rate={4.8} />
+        <Card
+          imageName={'bride'}
+          status={'online'}
+          rate={5.0}
+          reviewCount={30}
+          location={'USA'}
+        />
+        <Card
+          imageName={'bike'}
+          status={''}
+          rate={4.8}
+          reviewCount={2}
+          location={'USA'}
+        />
       </section>
     </main>
   );
