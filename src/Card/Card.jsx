@@ -8,7 +8,7 @@ export default function Card({
   price,
 }) {
   return (
-    <a href='#' class='link_card'>
+    <a href='#' className='link_card'>
       <section className='card'>
         <div className={'card__image card__image__' + imageName}>
           <div className='card__status'>{status}</div>
@@ -17,8 +17,7 @@ export default function Card({
           <ul className='card__information'>
             <li className='card__rate'>
               <img src='' alt='' />
-              {rate}
-              {reviewCount} -{location}
+              {Number(rate).toFixed(1)}({reviewCount}) -{location}
             </li>
             <li className='card__summary'>{summary}</li>
             <li className='card__price'>
