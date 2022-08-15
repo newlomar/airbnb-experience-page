@@ -1,5 +1,5 @@
 import Card from '../Card/Card';
-import swimmer from '../assets/swimmer.png';
+
 export default function Main() {
   return (
     <main className='main'>
