@@ -20,7 +20,7 @@ export default function Main() {
               imageName={cardInfo.coverImg}
               status={cardInfo.status}
               rate={cardInfo.stats.rating}
-              reviewCount={cardInfo.reviewCount}
+              reviewCount={cardInfo.stats.reviewCount}
               location={cardInfo.location}
               summary={cardInfo.title}
               price={cardInfo.price}
