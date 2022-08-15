@@ -14,44 +14,19 @@ export default function Main() {
       </section>
       <section className='main__cards'>
         {info.map((cardInfo) => {
-          <Card
-            key={cardInfo.id}
-            imageName={cardInfo.coverImg}
-            status={cardInfo.status}
-            rate={cardInfo.stats.rating}
-            reviewCount={cardInfo.reviewCount}
-            location={cardInfo.location}
-            summary={cardInfo.title}
-            price={cardInfo.price}
-          />;
+          return (
+            <Card
+              key={cardInfo.id}
+              imageName={cardInfo.coverImg}
+              status={cardInfo.status}
+              rate={cardInfo.stats.rating}
+              reviewCount={cardInfo.reviewCount}
+              location={cardInfo.location}
+              summary={cardInfo.title}
+              price={cardInfo.price}
+            />
+          );
         })}
-        <Card
-          imageName={'swimmer'}
-          status={'sold out'}
-          rate={5.0}
-          reviewCount={6}
-          location={'USA'}
-          summary='Life lessons with Katie Zaferes'
-          price='136'
-        />
-        <Card
-          imageName={'bride'}
-          status={'online'}
-          rate={5.0}
-          reviewCount={30}
-          location={'USA'}
-          summary='Learn wedding photography'
-          price='125'
-        />
-        <Card
-          imageName={'bike'}
-          status={''}
-          rate={4.8}
-          reviewCount={2}
-          location={'USA'}
-          summary='Group Mountain Biking'
-          price='50'
-        />
       </section>
     </main>
   );
