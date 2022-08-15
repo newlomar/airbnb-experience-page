@@ -1,6 +1,8 @@
 import Card from '../Card/Card';
+import cardsInfo from '../cardsInfo.json';
 
 export default function Main() {
+  const info = cardsInfo.cardInfo;
   return (
     <main className='main'>
       <section className='main__text'>
@@ -11,6 +13,18 @@ export default function Main() {
         </p>
       </section>
       <section className='main__cards'>
+        {info.map((cardInfo) => {
+          <Card
+            key={cardInfo.id}
+            imageName={cardInfo.coverImg}
+            status={cardInfo.status}
+            rate={cardInfo.stats.rating}
+            reviewCount={cardInfo.reviewCount}
+            location={cardInfo.location}
+            summary={cardInfo.title}
+            price={cardInfo.price}
+          />;
+        })}
         <Card
           imageName={'swimmer'}
           status={'sold out'}
